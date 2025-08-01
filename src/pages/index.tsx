@@ -6,11 +6,12 @@ import ShowcaseSection2 from '../components/ShowcaseSection2';
 import IndustryPartners from '../components/IndustryPartners';
 import Testimonials from '../components/Testimonials';
 import StatisticsBar from '../components/StatisticsBar';
-import Footer from '../components//Footer';
+import Footer from '../components/Footer';
 import IntelliTechCTA from "@/components/IntelliTechCTA";
 import CyberResilienceSection from "@/components/CyberResilienceSection";
 import IndustriesTargetedSection from "@/components/IndustriesTargetedSection";
 import IndustriesGridSection from "@/components/IndustriesGridSection";
+import TopThreatsSection from '../components/TopThreatsSection';
 
 export default function Home() {
   return (
@@ -18,9 +19,10 @@ export default function Home() {
       <Header />
       <HeroSection />
       <IntelliTechCTA />
-      <IndustriesTargetedSection />
-      <IndustriesGridSection />
       <CyberResilienceSection />
+      <IndustriesTargetedSection />
+      <IndustriesGridSection /> 
+      <TopThreatsSection />
       <FeatureHighlights />
       <ShowcaseSection1 />
       <ShowcaseSection2 />

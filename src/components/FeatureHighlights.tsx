@@ -5,7 +5,7 @@ import iconNetwork from "@/assets/icon-network.jpg";
 import iconPerformance from "@/assets/icon-performance.jpg";
 
 const FeatureHighlights = () => (
-  <section className="py-24 bg-tech-darker">
+  <section className="pt-0 pb-24 bg-tech-darker">
     <div className="container mx-auto px-6">
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold mb-6">

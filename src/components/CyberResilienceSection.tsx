@@ -22,7 +22,7 @@ const chartData = [
 ];
 
 return (
-    <section className="w-full min-h-screen bg-black relative overflow-hidden">
+    <section className="w-full bg-black relative overflow-hidden pt-20 pb-8">
 
     {/* Animated background elements */}
     <div className="absolute inset-0 opacity-30">
@@ -34,16 +34,16 @@ return (
         <div className="absolute bottom-32 right-1/4 w-1.5 h-1.5 bg-red-500 rounded-full animate-pulse" style={{ animationDelay: '5s' }}></div>
     </div>
 
-    <div className="container mx-auto px-6 py-20">
+    <div className="container mx-auto px-6">
         
         {/* Main Content Grid */}
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="grid lg:grid-cols-2 gap-6 items-center">
         
         {/* Left Side - Horizontal Stacked Bar Chart */}
         <div className="flex flex-col justify-center">
-            <div className="space-y-8">
+            <div className="space-y-4">
                 {/* Chart */}
-                <div className="space-y-4">
+                <div className="space-y-3">
                     {chartData.map(({ region, data }, index) => {
                         const [notConf, neutral, conf, veryConf] = data;
                         const barSegments = [
@@ -98,7 +98,7 @@ return (
                 </div>
                 
                 {/* Legend */}
-                <div className="flex flex-wrap justify-center gap-6 mt-8 text-xs select-none">
+                <div className="flex flex-wrap justify-center gap-6 mt-4 text-xs select-none">
                     <div className="flex items-center gap-2">
                         <span className="inline-block w-4 h-4 rounded bg-[#FF4C4C]"></span>
                         <span className="text-white">Not confident</span>
@@ -121,7 +121,7 @@ return (
 
         {/* Right Side - Content Panel */}
         <div className="flex flex-col justify-center">
-            <div className="space-y-6">
+            <div className="space-y-4">
                 <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-500/20 border border-red-500/30 rounded-full">
                     <div className="w-2 h-2 bg-red-400 rounded-full animate-pulse"></div>
                     <span className="text-xs text-red-300 font-medium">Efficient Workflow</span>

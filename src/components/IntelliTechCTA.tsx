@@ -88,13 +88,13 @@ const IntelliTechSection: React.FC = () => {
                     />
                   </div>
                   <div className="card-image-wrapper card-large">
-                    <div className="card cta-wrapper v1">
+                                         <div className="card cta-wrapper v1">
                       <div className="w-layout-grid grid-2-columns cta v1">
                         <div className="z-index-1">
                           <div className="center-content---tablet">
                             <div className="badge-container center-mbp">
                               <div className="badge-wrapper">
-                                <div className="badge mid">
+                                                                 <div className="badge mid">
                                   <div className="item-icon">
                                     <img
                                       src="https://cdn.prod.website-files.com/6684839a47fd287b7d32dafd/6684839a47fd287b7d32dddc_stars-icon-intellitech-x-webflow-template.svg"
@@ -113,19 +113,19 @@ const IntelliTechSection: React.FC = () => {
                               <p>{slide.description}</p>
                             </div>
                             <div className="buttons-row left">
-                              <a
-                                href="/company-pages/contact-v1"
-                                className="primary-button w-inline-block"
-                              >
+                                                             <a
+                                 href="/company-pages/contact-v1"
+                                 className="primary-button w-inline-block"
+                               >
                                 <div>Get started</div>
                               </a>
-                              <a
-                                href="/company-pages/pricing"
-                                className="link mid w-inline-block"
-                              >
+                                                             <a
+                                 href="/company-pages/pricing"
+                                 className="link mid w-inline-block"
+                               >
                                 <div>View pricing</div>
                                 <div className="link-icon-right">
-                                  <div className="icon-font-rounded">
+                                                                     <div className="icon-font-rounded">
                                     <svg
                                       width="16"
                                       height="16"
@@ -260,6 +260,8 @@ const IntelliTechSection: React.FC = () => {
         .text-primary {
           color: #dc2626; /* Red color for primary text */
         }
+
+        
 
         /* Reduced gap between sections */
         #our-product {
